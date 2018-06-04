@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'application'
+// mainClassName='com.projavafx.backend.StackOverflow6'
+mainClassName='com.projavafx.backend.StackOverflowGluon'
+
+repositories {
+    jcenter()
+}
+dependencies {
+    compile 'org.glassfish:javax.json:1.1'
+    compile 'com.gluonhq:connect:1.4.3'
+}
